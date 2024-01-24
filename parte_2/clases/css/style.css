@@ -1,4 +1,5 @@
 @import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap";
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +10,7 @@ body {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
 ul {
   list-style: none;
 }
@@ -34,11 +36,9 @@ img {
   /* padding: 15px 55px 5px 55px; */
   padding: 1rem 5rem 0.7rem 5rem;
   align-items: center;
-  background-image: linear-gradient(
-      to right,
+  background-image: linear-gradient(to right,
       rgba(47, 48, 58, 0.8),
-      rgba(47, 48, 58, 0.8)
-    ),
+      rgba(47, 48, 58, 0.8)),
     url(../assets/images/banner-nosotros.jpg);
   background-size: cover;
 }
@@ -64,23 +64,21 @@ img {
     & li {
       color: aliceblue;
       cursor: pointer;
-      transition: 0.4s;
+      transition: 0.7s;
 
       &:hover {
         color: cyan;
         transform: scale(1.7);
-        transition: 0.4s;
+        transition: 0.7s;
       }
     }
   }
 }
 
 .banner--portfolio {
-  background-image: linear-gradient(
-      to right,
+  background-image: linear-gradient(to right,
       rgba(47, 48, 58, 0.1),
-      rgba(47, 48, 58, 0.5)
-    ),
+      rgba(47, 48, 58, 0.5)),
     url(../assets/images/clinica-veterinaria-kynos-banner.jpg);
   /* height: 547px; */
   height: 34rem;
@@ -104,11 +102,9 @@ img {
   justify-content: center;
   /* padding: 25px 0; */
   padding: 1.6rem 0;
-  background-image: linear-gradient(
-      to right,
+  background-image: linear-gradient(to right,
       rgba(47, 48, 58, 0.8),
-      rgba(47, 48, 58, 0.8)
-    ),
+      rgba(47, 48, 58, 0.8)),
     url(../assets/images/banner-nosotros.jpg);
   background-size: cover;
 }
@@ -117,11 +113,9 @@ img {
   padding: 8px;
   font-weight: bold;
   background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(24, 245, 245, 0.5) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(24, 245, 245, 0.5) 100%);
   color: aliceblue;
   border: 1px solid aliceblue;
   border-radius: 12px;
@@ -132,11 +126,9 @@ img {
   &:hover {
     color: #18f5f5;
     background: rgb(2, 0, 36);
-    background: linear-gradient(
-      90deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(24, 245, 245, 0.5) 100%
-    );
+    background: linear-gradient(90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(24, 245, 245, 0.5) 100%);
     font-weight: bold;
     border: 1px solid #18f5f5;
     transform: translateY(-5px);
@@ -156,11 +148,9 @@ img {
   border-radius: 5px;
   transition: 0.4s;
   box-shadow: 6px 5px 6px 1px rgba(355, 355, 355, 0.7);
-  background-image: linear-gradient(
-      to right,
+  background-image: linear-gradient(to right,
       rgba(47, 48, 58, 0.8),
-      rgba(47, 48, 58, 0.8)
-    ),
+      rgba(47, 48, 58, 0.8)),
     url(../assets/images/banner-footer.webp);
   background-size: cover;
 
@@ -216,11 +206,9 @@ dialog::backdrop {
 }
 
 #services {
-  background-image: linear-gradient(
-      to right,
+  background-image: linear-gradient(to right,
       rgba(47, 48, 58, 0.8),
-      rgba(47, 48, 58, 0.8)
-    ),
+      rgba(47, 48, 58, 0.8)),
     url(../assets/images);
   background-size: cover;
   height: 100%;
@@ -264,11 +252,9 @@ dialog::backdrop {
 }
 
 #contact {
-  background-image: linear-gradient(
-      to right,
+  background-image: linear-gradient(to right,
       rgba(47, 48, 58, 0.8),
-      rgba(47, 48, 58, 0.8)
-    ),
+      rgba(47, 48, 58, 0.8)),
     url(../assets/images/banner-contacto.jpg);
   background-size: cover;
   height: 100%;
@@ -353,11 +339,9 @@ dialog::backdrop {
   justify-content: center;
   /* padding: 15px 0; */
   padding: 1rem 0;
-  background-image: linear-gradient(
-      to right,
+  background-image: linear-gradient(to right,
       rgba(47, 48, 58, 0.8),
-      rgba(47, 48, 58, 0.8)
-    ),
+      rgba(47, 48, 58, 0.8)),
     url(../assets/images/banner-footer.webp);
   background-size: cover;
   color: aliceblue;
