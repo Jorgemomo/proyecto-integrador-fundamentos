@@ -8,7 +8,7 @@ class Veterinaria {
 
   descripcionVeterinaria() {
     return `La veterinaria ${this.nombre}, es una de las más prestigiosas, del sector ubicada enla dirección ${this.direccion}. 
-    Nuestra misión es darle bienestar a tu mascota y tranquilidad ea nuestros clientes de que sus peludisto están en las mejores manos.
+    Nuestra misión es darle bienestar a tu mascota y tranquilidad de nuestros clientes, que sus peluditos están en las mejores manos.
     Contamos con servicio de urgencia y nuestro númmero de contacto es ${this.telefono}
     `;
   }
